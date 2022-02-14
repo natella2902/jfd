@@ -1,24 +1,14 @@
 import React from "react";
-import useMockData from "../utils/mockData";
 
 const Main = () => {
-    const { error, initialize, progress, status } = useMockData();
-    const handleClick = () => {
-        initialize();
-    };
     return (
         <div className="container mt-5">
             <h1> Main Page</h1>
-            <h3>Инициализация данных в FireBase</h3>
+            <h3>Hello my dear fiends!</h3>
             <ul>
-                <li>Status:{status}</li>
-                <li>Progress: {progress}%</li>
-                {error && <li>error: {error}</li>}
+                <li>This is my education project! Please don't hesitate registration form.</li>
+                <li> It is absolutely safe. The project was done using MongoDB, React.js, Node.js</li>
             </ul>
-            <button className="btn btn-primary" onClick={handleClick}>
-                {" "}
-                Инициализировать
-            </button>
         </div>
     );
 };
