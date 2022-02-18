@@ -1,6 +1,0 @@
-{
-  "port": 8080,
-  "mongoUri": "mongodb+srv://natella:Wishenka2902@cluster0.48okr.mongodb.net/app?retryWrites=true&w=majority",
-  "secretKey": "this key generate for security",
-  "refreshSecretKey": "this key is refresh token"
-}
